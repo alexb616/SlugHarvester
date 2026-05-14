@@ -21,11 +21,11 @@ This tool is designed to extract WordPress usernames (slugs) via the **WP-JSON R
 
 Basic enumeration:
 ```bash
-python3 wp_user_enum_api_check.py -u https://target-site.com
+python3 enumerate_wp_users.py -u https://target-site.com
 ```
 Enumerate and save slugs to a file:
 ```bash
-python3 wp_user_enum_api_check.py -u https://target-site.com -o usernames.txt
+python3 enumerate_wp_users.py -u https://target-site.com -o usernames.txt
 ```
 
 ## ⚖️ Disclaimer
